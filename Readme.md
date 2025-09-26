@@ -1,28 +1,35 @@
-#**Insurance Approval Agent**
+# 🤖 Insurance Approval Agent 🏥
+
+![Python](https://img.shields.io/badge/Python-3.12-blue)
+![Streamlit](https://img.shields.io/badge/Streamlit-1.30-orange)
+
+## **Smart AI-powered insurance claims workflow**  
+Leverages LangGraph and LLMs to validate, check eligibility, detect fraud, and explain insurance claims decisions.
 
 
-Welcome to the Insurance Approval Agent repository!
+⚡ Welcome to the Insurance Approval Agent repository!
 This project demonstrates how to leverage LangGraph for building a smart multi-agent system that automates the insurance claim approval process.
 
 
 The workflow uses multiple specialized language model (LLM) agents to handle tasks such as:
 
-Validating claims for missing or incorrect data
+📌 Validating claims for missing or incorrect data
 
-Checking patient eligibility against insurance plans
+📌 Checking patient eligibility against insurance plans
 
-Retrieving relevant policy documents and coverage details
+📌 Retrieving relevant policy documents and coverage details
 
-Detecting potential fraudulent activity
+📌 Detecting potential fraudulent activity
 
-Generating a clear, human-friendly explanation of the decision
+📌 Generating a clear, human-friendly explanation of the decision
 
 The agent is designed to interact with claims data, invoke necessary tools (like a vector database for policy lookup), and provide a seamless claim approval experience for insurance teams.
 
 ![Workflow Diagram](Screenshot.png)
 
 
-**Features**
+
+## **Features**
 
 Validation Agent – Ensures claims have valid data.
 
@@ -38,7 +45,10 @@ Streamlit UI – Interactive web interface to test claims and visualize results.
 
 LangGraph Workflow – Orchestrates agents in a stateful graph-based workflow.
 
-##**📂 Project Structure**
+
+
+## **📂 Project Structure**
+```
 Insurance_Approval_Agent/
 │── agentUI.py              # Streamlit frontend
 │── langgraph_workflow.py   # Core workflow (build_graph)
@@ -51,23 +61,26 @@ Insurance_Approval_Agent/
 │── data_loader.py          # Loads claims, patients, policies
 │── requirements.txt        # Python dependencies
 │── README.md               # Project documentation
+```
 
-##**⚙️ Installation**
 
-###Clone the repository
+## **⚙️ Installation**
+
+
+### Clone the repository
 
 git clone https://github.com/your-username/Insurance_Approval_Agent.git
 cd Insurance_Approval_Agent
 
 
-###Set up a virtual environment
+### Set up a virtual environment
 
 python -m venv venv
 source venv/bin/activate   # Mac/Linux
 venv\Scripts\activate      # Windows
 
 
-###Install dependencies
+### Install dependencies
 
 pip install -r requirements.txt
 
@@ -90,7 +103,7 @@ streamlit run agentUI.py
 Open http://localhost:8501
  in your browser.
 
-##**📊 Workflow Overview**
+## **📊 Workflow Overview**
 
 The claim approval flow works as follows:
 
@@ -105,7 +118,7 @@ Fraud detected → Flagged
 
 Otherwise → Approved with explanation
 
-##**🔧 Configuration**
+## **🔧 Configuration**
 
 Vector DB: Currently supports Pinecone via vectordb.py.
 
@@ -118,7 +131,8 @@ Make sure to set your API keys (e.g., OpenAI, Pinecone) in environment variables
 export OPENAI_API_KEY="your-key"
 export PINECONE_API_KEY="your-key"
 
-##**📌 Requirements**
+
+## **📌 Requirements**
 
 Python 3.12+
 
@@ -130,7 +144,8 @@ LangGraph
 
 Pinecone or FAISS for vector storage
 
-##*🛠 Future Enhancements*
+
+## *🛠 Future Enhancements*
 
 Add audit logging of claim decisions
 
