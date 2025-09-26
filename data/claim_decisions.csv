@@ -1,0 +1,6 @@
+claim_id,patient_id,procedure_code,status,reason
+C1001,P001,PRC-100,Requires Prior Auth,Covered if medically necessary
+C1002,P002,PRC-100,Denied,Not covered under Silver Plan
+C1003,P003,PRC-200,Approved,Covered routine lab
+C1004,P004,PRC-100,Requires Prior Auth,Covered only for under 65
+C1005,P005,PRC-200,Approved,Covered routine lab

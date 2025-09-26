@@ -1,0 +1,6 @@
+patient_id,name,age,gender,plan_id,deductible_remaining,oop_remaining,chronic_conditions,enrollment_state
+P10001,John Smith,68,M,MedicareA,1200,5000,Hypertension;Diabetes,TX
+P10002,Mary Johnson,45,F,MedicareB,3000,8000,Asthma,CA
+P10003,Robert Lee,52,M,MedicareA,0,10000,none,NY
+P10004,Linda Martinez,78,F,MedicareC,500,2000,Heart Disease,FL
+P10005,James Davis,1234,M,MedicareB,1500,6000,Obesity;Asthma,IL

@@ -1,0 +1,14 @@
+MedicareB Plan Policy Document
+
+Office Visits (CPT 99213):
+- Covered under all circumstances except non-covered services
+- No prior authorization
+
+MRI Brain (CPT 70551):
+- Covered only for patients with documented seizures (ICD10 G40.x) or brain tumor
+- Prior authorization required
+- Max one MRI Brain per year
+
+Ingrown Toenail Surgery (CPT 11721):
+- Covered, but requires prior authorization
+- Only if outpatient; inpatient cases reviewed case by case

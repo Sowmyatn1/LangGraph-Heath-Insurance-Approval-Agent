@@ -1,0 +1,39 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+
+# Virtual environments
+.env
+.venv/
+venv/
+ENV/
+env/
+
+# API keys & secrets
+*.env
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+*.ipynb
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Build / dist
+build/
+dist/
+*.egg-info/
+
+# Streamlit
+.streamlit/
+
+# VSCode / PyCharm configs
+.vscode/
+.idea/

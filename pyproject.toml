@@ -1,0 +1,32 @@
+[project]
+name = "insurance-approval-agent"
+version = "0.1.0"
+description = "AI-powered multi-agent insurance claim approval system using LangChain, LangGraph, and ChromaDB"
+authors = [{ name = "Sowmya"}]
+readme = "README.md"
+requires-python = ">=3.10"
+
+dependencies = [
+    # Core AI and orchestration
+    "langchain",
+    "langgraph",
+    "openai",
+    "tiktoken",
+    "langchain-core",
+    "langchain-community",
+    "google-genai",
+    "langchain-google-genai",
+
+    # Data processing
+    "pandas",
+    "numpy",
+
+    # Vector store and embeddings
+    "pinecone-client",
+    "python-dotenv",
+    "streamlit",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"

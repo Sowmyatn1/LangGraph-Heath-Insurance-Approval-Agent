@@ -1,0 +1,45 @@
+MedicareC Plan Policy Document
+
+MRI Brain (Procedure Code: CPT_70551)
+  - Coverage: Not covered
+  - Prior Authorization: Not applicable
+  - Patient Eligibility: All ages 0-120 years
+  - Notes:
+      - This procedure is considered elective for plan members and is excluded from standard benefits.
+      - Only approved for exceptional medical circumstances with explicit case review.
+      - Routine diagnostic MRI of the brain is excluded under MedicareC.
+      - Patients with neurological symptoms may be considered for alternative covered imaging modalities.
+      - This exclusion is independent of the patient's age, gender, or existing medical conditions.
+  - Coverage Limits:
+      - Maximum visits per year: 1 (under review for exceptions)
+      - Any charges for MRI Brain without prior authorization are the responsibility of the member.
+  - Supporting context:
+      - Refer to section 3.4 “Diagnostic Imaging Exclusions” for full list of excluded procedures.
+      - MRI Brain procedures are specifically excluded from outpatient benefits.
+      - MedicareC strongly recommends consulting with the medical director before scheduling non-covered procedures.
+
+Physical Therapy (HCPCS G0296):
+- Covered only if patient has significant mobility limitations
+- Prior authorization required
+- Maximum visits per year: 15
+- Not covered for wellness or preventive therapy
+
+Office Visits (CPT 99213):
+- Covered with no prior authorization
+- Standard co-pay applies based on plan terms
+
+Electrocardiogram (CPT 93000):
+- Covered as medically necessary
+- Prior authorization not required
+- Up to 3 per year
+
+Ingrown Toenail Surgery (CPT 11721):
+- Covered for patients 18 years and older
+- Prior authorization required
+- Only outpatient procedures are covered
+
+General Notes:
+- All coverage decisions are subject to review based on medical necessity
+- Patients may appeal denied claims per CMS guidelines
+- Exclusions: Experimental procedures, cosmetic treatments, non-FDA approved drugs
+- Exceptions may be reviewed on a case-by-case basis.

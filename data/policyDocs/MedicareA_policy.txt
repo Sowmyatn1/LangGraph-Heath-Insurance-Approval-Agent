@@ -1,0 +1,17 @@
+MedicareA Plan Policy Document
+
+Coverage for Physical Therapy (HCPCS G0296):
+- Beneficiaries aged 65 or older
+- Must submit prior authorization before treatment begins
+- Max visits per year: 20
+- Exclusions: therapy for non-medically necessary cosmetic or wellness purposes
+
+MRI Lumbar Spine (CPT 72148):
+- Covered if there is a diagnosis of a herniated disk or severe spinal stenosis
+- Prior authorization required
+- One MRI per year unless significant change in symptoms
+
+Electrocardiogram (EKG, CPT 93000):
+- Covered as routine diagnostic procedure
+- No prior authorization required
+- No visit limit per year

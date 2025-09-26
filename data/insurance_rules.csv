@@ -1,0 +1,42 @@
+plan_id,procedure_code,procedure_name,covered,prior_auth,min_age,max_age,diagnosis_required,max_visits_per_year,notes
+MedicareB,HCPCS_G0296,Physical Therapy,Yes,Yes,0,120,none,20,PT covered if patient >65; prior auth required
+MedicareA,CPT_72148,MRI Lumbar Spine,Yes,Yes,18,120,HerniatedDisk,1,Adult procedure; prior auth required
+MedicareB,CPT_99213,Office Visit,Yes,No,0,120,none,4,Standard office visit; no prior auth
+MedicareC,CPT_70551,MRI Brain,No,Yes,0,120,none,1,Not covered under MedicareC
+MedicareB,CPT_93000,Electrocardiogram (EKG),Yes,No,0,120,none,2,Routine EKG coverage; all ages
+MedicareA,CPT_11721,Ingrown Toenail Surgery,Yes,Yes,10,120,none,1,Prior auth required; children & adults
+MedicareB,CPT_97110,Therapeutic Exercise,Yes,Yes,0,120,none,20,Pediatric & adult PT; prior auth required
+MedicareC,CPT_70450,CT Head/Brain,Yes,Yes,0,120,Trauma/Symptoms,1,Pediatric & adult; prior auth required
+MedicareB,CPT_99396,Annual Wellness Visit,Yes,No,40,120,none,1,Adult only; preventive care
+MedicareA,CPT_95806,Sleep Study (Polysomnography),Yes,Yes,18,120,SuspectedSleepDisorder,1,Adult; prior auth required
+MedicareB,CPT_45378,Colonoscopy,Yes,Yes,50,120,none,1,Adult preventive; prior auth required
+MedicareB,CPT_90658,Influenza Vaccine,Yes,No,6,120,none,1,Pediatric & adult vaccination; no prior auth
+MedicareC,CPT_90746,Shingles Vaccine,Yes,No,50,120,none,1,Adult only; no prior auth
+MedicareA,CPT_36415,Blood Draw/Lab Collection,Yes,No,0,120,none,2,Pediatric & adult; routine labs
+MedicareB,CPT_81002,Urinalysis,Yes,No,0,120,none,1,Pediatric & adult; routine labs
+MedicareB,CPT_20610,Joint Injection,Yes,Yes,18,120,Arthritis/OA,4,Adult; prior auth required
+MedicareC,CPT_93010,EKG with Interpretation,Yes,No,0,120,none,1,Pediatric & adult; routine coverage
+MedicareA,CPT_36430,IV Therapy,Yes,Yes,0,120,Dehydration/Infection,10,Pediatric & adult; prior auth
+MedicareB,CPT_47562,Laparoscopic Cholecystectomy,Yes,Yes,18,120,Gallstones,1,Adult procedure; prior auth
+MedicareC,CPT_66984,Cataract Surgery,Yes,Yes,50,120,Cataract,2,Adult; prior auth
+MedicareA,CPT_77067,Screening Mammography,Yes,No,40,74,none,1,Female-specific; routine screening; no prior auth
+MedicareB,CPT_88175,Pap Smear,Yes,No,21,65,none,1,Female-specific; routine screening; no prior auth
+MedicareC,CPT_58571,Hysteroscopy,Yes,Yes,18,65,AbnormalBleeding,1,Female-specific; prior auth required
+MedicareB,CPT_59510,Cesarean Delivery,Yes,Yes,18,50,Pregnancy,1,Female-specific; childbirth; prior auth required
+MedicareA,CPT_59400,Vaginal Delivery,Yes,Yes,18,50,Pregnancy,1,Female-specific; childbirth; prior auth required
+MedicareC,CPT_76830,Pelvic Ultrasound,Yes,Yes,18,65,AbnormalBleeding,2,Female-specific; prior auth required
+MedicareB,CPT_58100,Endometrial Biopsy,Yes,Yes,18,65,AbnormalBleeding,1,Female-specific; prior auth required
+MedicareA,CPT_76856,Obstetric Ultrasound,Yes,No,12,50,Pregnancy,3,Female-specific; pediatric & adult prenatal care; no prior auth
+MedicareB,CPT_59515,Postpartum Care Visit,Yes,No,12,50,Pregnancy,1,Female-specific; pediatric & adult postpartum; no prior auth
+MedicareC,CPT_88142,Liquid-Based Pap Smear,Yes,No,21,65,none,1,Female-specific; routine screening; no prior auth
+MedicareA,CPT_58558,D&C (Dilation & Curettage),Yes,Yes,18,65,AbnormalBleeding,1,Female-specific; prior auth required
+MedicareB,CPT_57454,Colposcopy,Yes,Yes,21,65,AbnormalPap,2,Female-specific; prior auth required
+MedicareC,CPT_58120,Endometrial Ablation,Yes,Yes,25,50,HeavyBleeding,1,Female-specific; prior auth required
+MedicareB,CPT_76830,Transvaginal Ultrasound,Yes,Yes,18,65,AbnormalBleeding,2,Female-specific; prior auth required
+MedicareA,CPT_59135,Fetal Non-Stress Test,Yes,No,12,50,Pregnancy,3,Female-specific; pediatric & adult prenatal monitoring; no prior auth
+MedicareC,CPT_76819,Fetal Ultrasound,Yes,No,12,50,Pregnancy,3,Female-specific; pediatric & adult prenatal monitoring; no prior auth
+MedicareB,CPT_36416,Blood Collection from Line,Yes,No,0,120,none,2,Pediatric & adult; routine labs
+MedicareB,CPT_81001,Urine Pregnancy Test,Yes,No,12,50,none,5,Female-specific; pediatric & adult; no prior auth
+MedicareB,CPT_36415,Pediatric Blood Draw,Yes,No,0,18,none,1,Children-specific; routine labs; no prior auth
+MedicareB,CPT_99212,Pediatric Office Visit,Yes,No,0,18,none,1,Children-specific; standard visit; no prior auth
+MedicareB,CPT_96360,Pediatric IV Infusion,Yes,Yes,0,18,Dehydration/Infection,10,Children-specific; prior auth required

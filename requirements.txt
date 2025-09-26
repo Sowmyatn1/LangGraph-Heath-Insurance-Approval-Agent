@@ -1,0 +1,19 @@
+# Core
+langchain
+langgraph
+openai
+tiktoken
+# Data processing
+pandas
+numpy
+# fast embeddings & sentence similarity
+pinecone
+langchain-core
+langchain-community
+python-dotenv
+google-genai
+langchain
+langchain-google-genai
+streamlit
+langchain-pinecone
+ipython

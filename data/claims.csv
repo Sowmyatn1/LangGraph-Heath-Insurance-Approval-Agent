@@ -1,0 +1,6 @@
+claim_id,patient_id,procedure_code,diagnosis_code,claim_amount,date,provider,status
+C20001,P10001,CPT_72148,ICD10_M51.26,3500,8/15/25,Dr Adams,Pending
+C20002,P10002,HCPCS_G0296,ICD10_J45.909,200,7/20/25,Dr Brown,Pending
+C20003,P10004,CPT_70551,ICD10_G40.909,4000000,9/1/25,Dr Clark,Pending
+C20004,P10005,CPT_93000,ICD10_I10,150,9/5/25,Dr Davis,Pending
+C20005,P10003,CPT_11721,ICD10_L60.0,800,8/30/25,Dr Evans,Pending
