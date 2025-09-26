@@ -1,4 +1,4 @@
-Insurance Approval Agent
+#**Insurance Approval Agent**
 
 
 Welcome to the Insurance Approval Agent repository!
@@ -22,7 +22,7 @@ The agent is designed to interact with claims data, invoke necessary tools (like
 ![Workflow Diagram](Screenshot.png)
 
 
-Features
+**Features**
 
 Validation Agent – Ensures claims have valid data.
 
@@ -38,7 +38,7 @@ Streamlit UI – Interactive web interface to test claims and visualize results.
 
 LangGraph Workflow – Orchestrates agents in a stateful graph-based workflow.
 
-📂 Project Structure
+##**📂 Project Structure**
 Insurance_Approval_Agent/
 │── agentUI.py              # Streamlit frontend
 │── langgraph_workflow.py   # Core workflow (build_graph)
@@ -52,22 +52,22 @@ Insurance_Approval_Agent/
 │── requirements.txt        # Python dependencies
 │── README.md               # Project documentation
 
-⚙️ Installation
+##**⚙️ Installation**
 
-Clone the repository
+###Clone the repository
 
 git clone https://github.com/your-username/Insurance_Approval_Agent.git
 cd Insurance_Approval_Agent
 
 
-Set up a virtual environment
+###Set up a virtual environment
 
 python -m venv venv
 source venv/bin/activate   # Mac/Linux
 venv\Scripts\activate      # Windows
 
 
-Install dependencies
+###Install dependencies
 
 pip install -r requirements.txt
 
@@ -90,7 +90,7 @@ streamlit run agentUI.py
 Open http://localhost:8501
  in your browser.
 
-📊 Workflow Overview
+##**📊 Workflow Overview**
 
 The claim approval flow works as follows:
 
@@ -105,7 +105,7 @@ Fraud detected → Flagged
 
 Otherwise → Approved with explanation
 
-🔧 Configuration
+##**🔧 Configuration**
 
 Vector DB: Currently supports Pinecone via vectordb.py.
 
@@ -118,7 +118,7 @@ Make sure to set your API keys (e.g., OpenAI, Pinecone) in environment variables
 export OPENAI_API_KEY="your-key"
 export PINECONE_API_KEY="your-key"
 
-📌 Requirements
+##**📌 Requirements**
 
 Python 3.12+
 
@@ -130,7 +130,7 @@ LangGraph
 
 Pinecone or FAISS for vector storage
 
-🛠 Future Enhancements
+##*🛠 Future Enhancements*
 
 Add audit logging of claim decisions
 
