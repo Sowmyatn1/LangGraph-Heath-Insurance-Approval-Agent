@@ -19,6 +19,9 @@ Generating a clear, human-friendly explanation of the decision
 
 The agent is designed to interact with claims data, invoke necessary tools (like a vector database for policy lookup), and provide a seamless claim approval experience for insurance teams.
 
+![Workflow Diagram](Screenshot.png)
+
+
 Features
 
 Validation Agent – Ensures claims have valid data.
